@@ -3,29 +3,51 @@ layout: post
 title: Taking the Plunge into Data Science
 ---
 
-# Iterative Improvement  
+## Iterative Improvement  
 
-In nearly every opportunity I've been given thus far, professional or otherwise, I've been asked to jump into the job without much relevant experience and learn on the fly.
-That trend continued last week while going through the first week of the Metis Data Science bootcamp.  
+In nearly every opportunity I've had thus far, professional or otherwise, I've been asked to jump into the job with little direct experience and learn on the fly.
+That trend continued last week while going through the first week of the Metis Data Science immersive bootcamp.  
 
+We dove right into exploratory data analysis, the process through which most ideas crash and burn.
+This is a fundamental component of scoping out a project: you determine whether the necessary data exists, clean out a myriad of possible errors and inconsistencies,
+and visualize the data you do have in different ways to get a sense of what patterns may lay within.
+While there are a plenty of pitfalls for a project at this stage, it's inherently fun.
+Exploring the data is an opportunity to manifest all the "what if" questions that pop up while thinking about a topic.
 
-With that in mind, we dove right into exploratory data analysis. This is where most ideas crash and burn, and the better ones rise out of the ashes.
-As someone who has struggled over the years to stop thinking about how to do stuff and simply dive in with pen to paper, I love the idea of EDA
-I'm typically pretty scatter-brained about approaching large, open-ended tasks, but the initial EDA step for this project was exciting because of what it forces you to do.
-EDA is the physical expression where you get to turn every out-of-left-field idea that pops into tangible steps to actually answer the question.
+## EDA with a purpose
 
-This is a post about my first project at the Metis Data Science immersive bootcamp in Chicago. The fall cohort started last week, and this is what we produced in the first 5 days.
+Let's say you want to send out volunteers to drum up excitement for a fundraising event in New York City.
+The organization is advancing the cause for more women in tech, and they want your help.
+How do you go about providing a recommendation with confidence?  
 
-![Image test]({{ site.url }}/images/AlanLeeShireGandalf.JPG)
+We looked at the NYC Metro Transit Authority's [data](http://web.mta.info/developers/turnstile.html) on subway turnstiles to deduce the busiest stops in the city.
+[Pandas dataframes](https://pandas.pydata.org/) made reading in and structuring the data a breeze.
+We developed distinct processes for cleaning the data and then grouping it so as to generate time series ridership data for individual stations.
+The figure below ranks the top 10 stations by average daily total of entries and exits.  
+ 
+![Ridership Insights from MTA Data]({{ site.url }}/images/stations_filtered.png)
 
-# Always Another Way  
+The data science process, however, isn't just about pure number crunching and taking your results at face value.
+In an alternative to foot traffic data, we also leveraged the fact that [96% of the tech companies in NYC](https://www.builtinnyc.com/2016/12/13/big-tech-companies-nyc-locations)
+are located in a roughly triangular area covering much of the middle and lower west side of Manhattan.
+Referencing station coordinates, we filtered for heavy traffic stops near the demographic most interested in the client's cause.
+
+If you want to target stations purely by foot traffic, consider:
+* 34th St - Penn Station
+* 42nd St - Grand Central Station
+* 34th St - Herald Square
+
+There is also plenty of opportunity in relatively high traffic stations near a nucleus of tech companies:
+* Fulton St
+* stations along 23rd St
 
 What has struck me the most since completing the project is just how many different ways other people have come up with to solve the exact same problem.
-The   
+During the presentations this past Friday, other classmates looked at targeting affluent parts of town, identified correlations (or lack thereof) with the weather,
+and created interesting visualizations for the results. I'm excited to see what else is created going forward.
 
-# Content in the Pipeline
+## Content in the Pipeline
 
-As 2018 draws to a close, we'll have covered a large swath of content at a pretty good pace.
+When the program wraps up this December, we'll have covered a large swath of content at a pretty good pace.
 The machine learning algorithms, what I'm most excited about, are varied enough to get a fundamental understanding of the field:
 * supervised learning (regression and classification)  
 * natural language processing  
