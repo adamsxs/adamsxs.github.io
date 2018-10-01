@@ -2,8 +2,8 @@
 permalink:           pretty
 
 # Setup
-title:               P.S. Adams
-tagline:             A Moderately Okay Data Science Blog
+title:               Sam Adams
+tagline:             Thoughts from inside the Metis Data Science Bootcamp
 url:                 http://adamsxs.github.io
 paginate:            2
 baseurl:             ""

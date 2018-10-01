@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zach's Test Post
+title: Style Guide Test Post
 ---
 
 This is a test post. 
