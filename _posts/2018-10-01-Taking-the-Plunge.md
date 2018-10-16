@@ -23,7 +23,7 @@ We looked at the NYC Metro Transit Authority's [data](http://web.mta.info/develo
 We developed distinct processes for cleaning the data and then grouping it so as to generate time series ridership data for individual stations.
 The figure below ranks the top 10 stations by average daily total of entries and exits.  
  
-![Ridership Insights from MTA Data]({{ site.url }}/images/stations_filtered.png)
+![Ridership Insights from MTA Data]({{ site.url }}/images/metis_01_MTA/stations_filtered.png)
 
 The data science process, however, isn't just about pure number crunching and taking your results at face value.
 In an alternative to foot traffic data, we also leveraged the fact that [96% of the tech companies in NYC](https://www.builtinnyc.com/2016/12/13/big-tech-companies-nyc-locations)
