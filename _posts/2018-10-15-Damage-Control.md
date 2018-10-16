@@ -47,7 +47,7 @@ are relative outliers.
 The same distribution appears even if I eliminate the values either below or above $1 billion, which 
 fundamentally doesn't really square that well with some of the assumptions needed that underpin linear regression. 
 To address this, I looked at using my model to predict the log<sub>10</sub> of storm cost, which bumped up the 
-R<sup>$</sup> to 0.608 on the log value without increasing the RMSE of the cost predictions themselves. 
+R<sup>2</sup> to 0.608 on the log value without increasing the RMSE of the cost predictions themselves. 
 
 Engineers like myself love heuristics, and I had imagined this model as a quick way to use Hurricane 
 meteorological data, something the NOAA can get live and reliably, to produce "back of the envelope" 
