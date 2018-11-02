@@ -3,7 +3,7 @@ layout: post
 title: Scania Trucks Classification Project
 ---
 
-![Scania promotional poster]({{site.url}}/images/metis_03_Scania/Scania_background.jpg)
+![Scania promotional poster]({{site.url}}/images/metis_03_Scania/scania_background.jpg)
 
 The trucks in the above picture are made by a Swedish company, Scania, that produces commercial vehicles.
 Back in 2016, they proposed a challenge at the [15th International Symposium on Intelligent Data Analysis](http://ida2016.blogs.dsv.su.se/):
@@ -46,7 +46,7 @@ Minimizing the number of false negatives is going to produce a surge in false po
 All said and done, there's still plenty to dig into here for steps in the project. 
 I'll look to do a more thorough walkthough in the future, but for now I'm happy getting a score that's better 
 than the original symposium submissions. 
-[Feel free to check out my notebooks and code.]('https://github.com/adamsxs/metis_project_03')
+[Feel free to check out my notebooks and code.](https://github.com/adamsxs/metis_project_03)
 I had a lot of fun learning about
 different ways to impute data, about PCA, modularizing my Python functions, and the tradeoffs that different types 
 of classification errors can have for a business case. 
